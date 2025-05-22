@@ -1,4 +1,3 @@
-import React from "react";
 import { Badge } from "../ui/badge";
 import { useNavigate } from "react-router-dom";
 
@@ -13,7 +12,7 @@ const JobCards = ({job}) => {
 
         <h1 className="text-lg font-medium"> {job.name} </h1>
        
-        <p className="text-sm text-gray-600">India</p>
+        <p className="text-sm text-gray-600">BanglaDesh</p>
       </div>
       <div>
         <h2 className="font-bold text-lg my-2">{job.title}</h2>

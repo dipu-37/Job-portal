@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { Avatar, AvatarImage } from "../ui/avatar";
@@ -68,10 +67,10 @@ const Navbar = () => {
                   {" "}
                   <Link to={"/Jobs"}>Jobs</Link>
                 </li>
-                <li>
+                {/* <li>
                   {" "}
                   <Link to={"/Creator"}>About</Link>
-                </li>
+                </li> */}
               </>
             )}
           </ul>
